@@ -2,7 +2,7 @@ name: Daily News Update
 
 on:
   schedule:
-    - cron: '5 9 * * *' # 毎日UTC 0:00 (日本時間9:00)
+    - cron: '15 5 * * *' # 毎日UTC 0:00 (日本時間9:00)
   workflow_dispatch: # 手動実行ボタンも追加
 
 jobs:
